@@ -1,56 +1,56 @@
 *{
-
-    background-color: rgb(115, 228, 104);
-}
-
-th, td{
-    
-    font-size: 40px;
-    background-color: #fff;
-    border: 1px solid black;
-}
-
-td{
-    font-style: oblique;
-}
-
-table{
-    margin-left: 0%;
-    background-color: red;
-    margin-top: 80%;
-    text-align: center;
-}
-
-body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
+    padding: 0%;
+    background-color: teal;
 
 }
 
 .formulario{
-    margin-top: 20%;
+
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+
 }
 
-h2{
-    font-size: 40px;
-
-}
-
-input, button{
-    font-size: 15px;
+input{
     font-weight: bold;
-    font-style: oblique;
-    border-radius: 10%;
+    margin-bottom: 10px;
     border: 2px solid black;
-    margin-bottom: 5px;
+    padding: 10px;
+
 }
 
-input:hover, button:hover{
+::placeholder{
+    font-family: 'Righteous';
+    font-style: oblique;
+    font-size: 15px;
+    color: black;
+    
+}
 
-    background-color: rgb(186, 160, 114);
+h1{
+    color: rgb(204, 206, 86);
+    display: inline;
+    font-size: 45px;
+    text-align: center;
+    padding-left: 0%;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 41%;
+}
+
+
+
+.btnenviar{
+    font-weight: bold;
+    background-color: yellow;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.btnenviar:hover{
+  background-color: green;
 }
