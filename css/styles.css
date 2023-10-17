@@ -44,13 +44,22 @@ h1{
 
 
 .btnenviar{
+    display: flex;
+    align-items: center;
     font-weight: bold;
     background-color: yellow;
     cursor: pointer;
-    text-align: center;
+
 
 }
 
 .btnenviar:hover{
   background-color: green;
+}
+
+.msg{
+    color: red;
+    font-weight: bold;
+    align-items: center;
+
 }
