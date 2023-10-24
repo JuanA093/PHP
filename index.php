@@ -21,7 +21,7 @@
             <input type="text" name="Direccion" placeholder="Direccion">
             <button type="submit" class="btnenviar" name = "enviar">Enviar</button>
             <button type="submit" class="btnenviar" name= "buscar">Buscar</button>
-            <button type="submit" class="btnenviar" name= "eliminar">Eliminar</button>
+            <button type="submit" class="btnenviar" name= "actualizar">Actualizar</button>
         </form>
 </body>
 </html>
